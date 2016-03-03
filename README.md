@@ -1,7 +1,7 @@
 SublimeLinter-contrib-swiftlint
 ================================
 
-[![Build Status](https://travis-ci.org/mailiam/SublimeLinter-contrib-swiftlint.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-swiftlint)
+[![Build Status](https://travis-ci.org/mailiam/SublimeLinter-contrib-swiftlint.svg?branch=master)](https://travis-ci.org/mailiam/SublimeLinter-contrib-swiftlint)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [SwiftLint](https://github.com/realm/SwiftLint). It will be used with files that have the “Swift” syntax.
 
