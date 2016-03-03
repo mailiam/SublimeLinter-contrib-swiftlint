@@ -1,0 +1,10 @@
+SublimeLinter-contrib-swiftlint
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to swiftlint.
+
+** IMPORTANT! **
+
+Before this plugin will activate, you *must*
+follow the installation instructions here:
+
+https://github.com/mailiam/SublimeLinter-contrib-swiftlint
