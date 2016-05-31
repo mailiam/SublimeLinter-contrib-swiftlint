@@ -30,6 +30,7 @@ class Swiftlint(Linter):
     multiline = False
     line_col_base = (1, 1)
     tempfile_suffix = None
+    config_file = ('--config', '.swiftlint.yml')
     error_stream = util.STREAM_BOTH
     selectors = {}
     word_re = None
