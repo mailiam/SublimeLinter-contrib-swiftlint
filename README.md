@@ -6,7 +6,7 @@ SublimeLinter-contrib-swiftlint
 This linter plugin for [SublimeLinter][docs] provides an interface to [SwiftLint](https://github.com/realm/SwiftLint). It will be used with files that have the “Swift” syntax.
 
 ## Installation
-SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
+SublimeLinter 4 must be installed in order to use this plugin. If SublimeLinter 4 is not installed, please follow the instructions [here][installation].
 
 ### Linter installation
 Before using this plugin, you must ensure that `swiftlint` is installed on your system. To install `swiftlint`, do the following:
@@ -17,7 +17,7 @@ Before using this plugin, you must ensure that `swiftlint` is installed on your 
    ```
 
 
-**Note:** This plugin requires `swiftlint` __0.9.1__ or later.
+**Note:** This plugin requires `swiftlint` __0.34.0__ or later.
 
 ### Linter configuration
 In order for `swiftlint` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
