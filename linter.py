@@ -16,7 +16,7 @@ from SublimeLinter.lint import Linter
 class Swiftlint(Linter):
     """Provides an interface to swiftlint."""
 
-    cmd = ('swiftlint', 'lint', '--use-stdin')
+    cmd = ('swiftlint', 'lint', '--use-stdin', '--quiet')
     regex = (
         r'^.+?:(?P<line>\d+):(?P<col>\d+)?:? '
         r'(?:(?P<error>error)|(?P<warning>warning)): '
